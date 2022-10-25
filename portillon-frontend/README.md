@@ -55,8 +55,8 @@ This may be the fastest way to get this application working for testing.
 With this, you don't have to install specific versions of node / npm / angular on your system. You "just" have to install docker.
 
 ```
-docker build . -t ent-frontend
-docker run -p 4200:4200 ent-frontend
+docker build . -t portillon-frontend
+docker run -p 4200:4200 portillon-frontend
 ```
 Navigate to `http://localhost:4200/`
 
