@@ -26,9 +26,9 @@ services:
     container_name: mariadb
     environment:
       - MYSQL_ROOT_PASSWORD=esup
-      - MYSQL_USER=entng
+      - MYSQL_USER=portillon
       - MYSQL_PASSWORD=esup
-      - MYSQL_DATABASE=entng
+      - MYSQL_DATABASE=portillon
     ports:
       - 3306:3306
   backend:
