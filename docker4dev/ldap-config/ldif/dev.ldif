@@ -1,0 +1,30 @@
+dn: ou=people,dc=univ-ville,dc=fr
+changetype: add
+ou: people
+objectclass: organizationalunit
+
+dn: uid=admin,ou=people,dc=univ-ville,dc=fr
+changetype: add
+uid: admin
+sn: admin
+cn: admin
+givenName: admin
+eduPersonPrimaryAffiliation: staff
+edupersonaffiliation: staff
+edupersonaffiliation: member
+objectClass: inetorgperson
+objectClass: eduperson
+userPassword: esup
+mail: admin@univ-ville.fr
+
+dn: ou=groups,dc=univ-ville,dc=fr
+changetype: add
+ou: groups
+objectclass: organizationalunit
+
+dn: cn=for.ent.admin,ou=groups,dc=univ-ville,dc=fr
+changetype: add
+objectClass: groupOfUniqueNames
+cn: for.esuppay.admin
+uniqueMember: uid=admin,ou=people,dc=univ-ville,dc=fr
+
