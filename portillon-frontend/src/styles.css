@@ -2,12 +2,12 @@
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import "~ng-pick-datetime/assets/style/picker.min.css";
 :root {
-    --color-primary: #1093d3;
-    --color-secondary: #0273d4;
-    --color-tertiary: #0f7ab0;
-    --color-quaternary: #1988c0;
-    --color-quinary: #1094d5;
-    --color-senary: #1093D3;
+    --color-primary: #337ab7;
+    --color-secondary: #337ac7;
+    --color-tertiary: #317bc7;
+    --color-quaternary: #3f7ba7;
+    --color-quinary: #337ac7;
+    --color-senary: #337ab7;
 }
 body {
   background-color: #eee!important;
